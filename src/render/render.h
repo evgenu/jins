@@ -7,13 +7,4 @@
 
 #include "../object/object.h"
 
-class Camera
-{
-public:
-    Camera();
-    ~Camera();
-    void render(GameObject * object);
-
-};
-
 #endif //SFMLTEST_RENDER_H
