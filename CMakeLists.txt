@@ -4,7 +4,7 @@ project(SFMLtest)
 set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}/cmake" "${CMAKE_MODULE_PATH}")
-set(SFML_STATIC_LIBRARIES TRUE)
+#set(SFML_STATIC_LIBRARIES TRUE)
 
 find_package(SFML 2.5 COMPONENTS audio network graphics window system REQUIRED)
 

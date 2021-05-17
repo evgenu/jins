@@ -13,7 +13,7 @@ public:
     void setCoordinates(int x, int y);
     int getCoordinate(char axis);
     void setDepth(int layer);
-    int getDepth();
+    const int getDepth();
     virtual void render();
 
 protected:

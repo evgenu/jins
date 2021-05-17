@@ -63,7 +63,7 @@ void GameObject::setDepth(int layer)
     }
 }
 
-int GameObject::getDepth()
+const int GameObject::getDepth()
 {
     try
     {
